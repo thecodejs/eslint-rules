@@ -1,0 +1,22 @@
+{
+  "name": "@codejs/eslint-rules",
+  "version": "0.0.1",
+  "description": "Collection of ESLint rules which are best for JS developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint-rules",
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecodejs/eslint-rules.git"
+  },
+  "author": "Alauddin Ansari",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
