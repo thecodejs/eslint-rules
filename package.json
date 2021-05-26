@@ -1,11 +1,9 @@
 {
-  "name": "@codejs/eslint-rules",
-  "version": "0.0.1",
+  "name": "@thecodejs/eslint-rules",
+  "version": "0.0.2",
   "description": "Collection of ESLint rules which are best for JS developers",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "eslint-rules",
     "eslint"

@@ -5,7 +5,7 @@ Standard ESlint rules for JavaScript, ReactJS and TypeScript developers
 ## Installation
 
 ```
-npm i @codejs/eslint-rules --save-dev
+npm i @thecodejs/eslint-rules --save
 ```
 
 
@@ -13,7 +13,7 @@ npm i @codejs/eslint-rules --save-dev
 These rules can be only used in .eslintrc file to apply rules.
 
 ```js
-const Rules = require('@codejs/eslint-rules')
+const Rules = require('@thecodejs/eslint-rules')
 
 module.exports = {
     env: {...},

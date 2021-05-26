@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'babel/semi': ['error', 'never'],
     'comma-dangle': ['error', 'only-multiline'],
