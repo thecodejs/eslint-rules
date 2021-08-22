@@ -1,12 +1,14 @@
 {
   "name": "@thecodejs/eslint-rules",
-  "version": "0.0.2",
-  "description": "Collection of ESLint rules which are best for JS developers",
+  "version": "0.0.3",
+  "description": "Collection of ESLint and Prettier rules which are best for JS developers",
   "main": "index.js",
   "scripts": {},
   "keywords": [
     "eslint-rules",
-    "eslint"
+    "eslint",
+    "prettier-rules",
+    "prettier"
   ],
   "repository": {
     "type": "git",
@@ -14,7 +16,5 @@
   },
   "author": "Alauddin Ansari",
   "license": "MIT",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  }
+  "dependencies": {}
 }

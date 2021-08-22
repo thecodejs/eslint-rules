@@ -1,9 +1,8 @@
 'use strict'
 
-const mergeObject = require('lodash/fp/merge')
 const defaultConfig = require('./rules-js')
 
-module.exports = mergeObject(defaultConfig, {
+module.exports = Object.assign({}, defaultConfig, {
     'react/display-name': 'off',
     'react/jsx-no-bind': 'error',
     'react/no-find-dom-node': 'warn',

@@ -10,7 +10,17 @@ npm i @thecodejs/eslint-rules --save
 
 
 ## Usage
-These rules can be only used in .eslintrc file to apply rules.
+These are only ESLint rules and user need to configure other properties too. 
+
+Instead use other recoommended packages.
+
+```
+@thecodejs/eslint-config-js
+@thecodejs/eslint-config-react
+@thecodejs/eslint-config-react-ts
+```
+
+These rules can be only used in `.eslintrc.js` file to apply rules.
 
 ```js
 const Rules = require('@thecodejs/eslint-rules')
@@ -22,12 +32,17 @@ module.exports = {
     rules: { ...Rules.JavaScriptRules }
 }
 ```
+For Prettier, `.prettierrc.js`
+```js
+module.exports = require('@thecodejs/eslint-rules/prettier-config')
+```
 
 ## Available rules:
 ```
 JavaScriptRules - For JavaScript projects
 ReactJsRules    - For ReactJS Projects
 ReactTsRules    - For ReactJS with TypeScript projects
+PrettierRules   - For Prettier
 ```
 
 

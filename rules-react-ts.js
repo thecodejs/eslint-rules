@@ -1,9 +1,8 @@
 'use strict'
 
-const mergeObject = require('lodash/fp/merge')
 const defaultConfig = require('./rules-react')
 
-module.exports = mergeObject(defaultConfig, {
+module.exports = Object.assign({}, defaultConfig, {
     'react/prop-types': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
